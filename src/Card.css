@@ -1,0 +1,71 @@
+/* In your CSS file */
+.custom-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+    transition: transform 0.3s ease-in-out;
+    width: 18rem; /* Adjust the width of the card */
+    margin-bottom: 20px; /* Space between cards */
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px); /* Adding hover effect */
+  }
+  
+  .custom-img {
+    border-radius: 15px 15px 0 0; /* Rounded corners for the image */
+    object-fit: fill;
+    width: 100%; /* Make the image responsive */
+    height: 200px; /* Adjust the height of the image */
+  }
+  
+  .custom-card-body {
+    background-color: #f8f9fa; /* Change the background color of the card body */
+    padding: 20px;
+  }
+  
+  .custom-card-title {
+    color: #333; /* Change title color */
+    margin-bottom: 10px;
+  }
+  
+  .custom-card-text {
+    color: #555; /* Change text color */
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+   
+        .custom-card {
+          width: 70%; 
+          margin: 0 auto; 
+          border-radius: 10px; 
+          margin-top: 7%;
+        }
+        .custom-img {
+            background-color: #e9baff;
+            object-fit: contain;
+         
+          }
+        
+        .custom-card-body {
+          padding: 10px; 
+          
+        }
+        
+        .custom-img {
+          height: 150px; 
+        }
+        
+        .custom-card-title {
+          font-size: 1.2rem; 
+          margin-bottom: 8px;
+        }
+        
+        .custom-card-text {
+          font-size: 0.9rem; 
+        }
+      }
+  
+  

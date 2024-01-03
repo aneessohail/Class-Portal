@@ -1,0 +1,63 @@
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  h2{
+    color: white;
+  }
+  .fileList {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  body{
+    background-color: #ae6ed3;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #0366d6;
+    font-weight: bold;
+  }
+  
+  .cardHover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+  .announcement-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+  .message-card {
+    color: #fff;
+    font-weight: bold;
+    border: 4px solid #fff308;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #ff00b3;
+    margin-top: 2%;
+  }
+
+  .Notice{
+color: rgb(72, 255, 0);
+font-size: 20px;
+  }
